@@ -17,6 +17,8 @@ Este projeto é um **sistema full-stack** composto por:
 
 O objetivo é demonstrar habilidades em **Next.js, NestJS, Prisma, Auth.js, Neontech (PostgreSQL) e ShadCN/UI**.
 
+Vídeo explicativo: https://drive.google.com/file/d/1V_MjcXU_3M0RuTUWM2e97QNlaqeLbTDD/view?usp=drive_link
+
 ---
 
 ## Observações Importantes
