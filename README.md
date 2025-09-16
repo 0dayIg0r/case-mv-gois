@@ -75,11 +75,6 @@ DATABASE_URL=<url_do_banco_neontech>
 # Backend / NestJS
 JWT_SECRET=<mesma_chave_do_auth>
 
-# Mail (opcional)
-MAIL_HOST=<host_smtp>
-MAIL_PORT=<porta>
-MAIL_USERNAME=<usuario>
-MAIL_PASSWORD=<senha>
 ```
 
 > ⚠️ O `.env` será fornecido apenas por questões educacionais.
