@@ -1,0 +1,13 @@
+import { Module } from '@nestjs/common';
+import { WalletService } from './wallet.service';
+import { WalletController } from './wallet.controller';
+import { PrismaModule } from '../prisma/prisma.module';
+import { AuthModule } from '../auth/auth.module';
+
+// Módulo da Wallet que integra o serviço, controlador, Prisma e autenticação
+@Module({
+  imports: [PrismaModule, AuthModule],
+  controllers: [WalletController],
+  providers: [WalletService],
+})
+export class WalletModule {}
